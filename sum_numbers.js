@@ -4,7 +4,7 @@ function sumInput() {
     while (true) {
       let input = prompt('数を入力してください');
   
-      if ((input == '') | (input == null) | (input == false)) break;
+      if ((input == '') || (input == null) || (input == false)) break;
   
       data.push(Number(input));
     }
