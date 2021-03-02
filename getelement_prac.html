@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>getElementByIdの練習</title>
+</head>
+<body>
+
+<p>今日は外でランチを食べました。</p>
+
+<p id="place">東京</p>
+<p id="restaurant">インド料理店</p>
+
+<p>インドカレーは美味しい</p>
+
+<button onClick="getElement();">要素を取得</button>
+
+<script>
+function getElement(){
+    let element = document.getElementById('place');
+    console.log('場所: ' + element.textContent);
+
+    element = document.getElementById('restaurant');
+    console.log('店の種類: ' + element.textContent);
+}
+</script>
+</body>
+</html>
