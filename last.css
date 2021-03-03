@@ -1,0 +1,22 @@
+@charset "utf-8";
+.orange {
+    background-color: #ffcc99;
+    font-weight: bold
+}
+
+.green {
+    background-color: green;
+    font-weight: bolder;
+}
+
+.purple {
+    background-color: #b19eff;
+    font-weight: 900;
+}
+
+.big {
+    font-size: 6em;
+    background: linear-gradient(90deg, rgba(0,36,22,1) 0%, rgba(32,121,9,1) 55%, rgba(223,228,4,1) 95%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255,255,255,0.0);
+}
